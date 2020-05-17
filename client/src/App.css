@@ -1,0 +1,192 @@
+.App {
+  padding: 10px;
+}
+
+.nav-search-input {
+  width: 300px;
+}
+
+.dec-scope {
+  margin-top: 10px;
+  width: 100%;
+  min-height: 400px;
+  padding: 5px;
+  border: 3px #888 solid;
+  border-radius: 5px;
+}
+
+.dec-scope .input-group input {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.dec-scope-stub {
+  border: 3px #ccc dashed;
+  border-radius: 5px;
+  height: 250px;
+  margin-top: 10px;
+  padding-top: 95px;
+  text-align: center;
+  width: 100%;
+}
+
+.dec-scope-stub .input-group {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.dec-scope-title span:first-of-type {
+  text-decoration: underline;
+}
+
+.dec-row {
+  margin: 5px 0;
+  clear: left;
+  border: 1px solid #c7c7c7;
+  border-radius: 4px;
+  min-height: 225px;
+  padding: 7px;
+}
+
+.dec-loading {
+  font-size: 1.5rem;
+  color: #aaa;
+}
+
+.dec-loading img {
+  margin: 20px 20px 20px 50px;
+  height: 70px;
+  vertical-align: middle;
+}
+
+.dec-name {
+  text-decoration: underline;
+}
+
+.dec-constraints {
+  margin-left: 10px;
+  font-size: 0.8rem;
+}
+
+.dec-alternatives {
+  margin: 5px 0;
+  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.alt-box {
+  display: inline-block;
+  float: none;
+  width: 18rem;
+}
+
+.alt-box + .alt-box {
+  margin-left: 7px;
+}
+
+.alt-box:hover  {
+  cursor: pointer;
+  border: solid rgb(127, 172, 255) 1px;
+}
+
+.alt-selected {
+  background-color: #007bff !important;
+  border: 1px solid rgba(0,0,0,.125) !important;
+}
+
+.alt-selected,
+.alt-selected .alt-score,
+.alt-selected a,
+.alt-selected .alt-property-label {
+  color: #fff !important;
+}
+
+.alt-unavailable,
+.alt-unavailable:hover {
+  background-color: #c9c9c9 !important;
+  border: 1px solid rgb(216, 216, 216) !important;
+  color: rgb(83, 83, 83);
+  cursor: not-allowed;
+}
+
+.alt-hidden {
+  display: none;
+}
+
+.alt-name {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.alt-properties {
+  min-height: 100px;
+}
+
+.alt-property {
+  font-size: 70%;
+  line-height: 1.4;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.alt-property-label,
+.alt-property-label a {
+  font-size: 100%;
+  font-weight: bold;
+  color: #000;
+}
+
+.alt-score {
+  color: #6c757d;
+  text-align: center;
+}
+
+.filter-name {
+  font-weight: bold;
+  margin-top: 35px;
+}
+
+.filter-label {
+  font-size: 0.8em;
+}
+
+.filter-creatable-input {
+  width: 100%;
+}
+
+.modal-dialog {
+  max-width: 900px;
+}
+
+.modal-graph {
+  width: 90%;
+  max-width: none !important;
+}
+
+.modal-factors {
+  width: 1000px;
+  max-width: none !important;
+}
+
+.form-input-weight {
+  width: 130px;
+}
+
+.form-select-strategy {
+  width: 230px;
+}
+
+#graph-container {
+  width: 100%;
+  height: 800px;
+  border: 3px solid lightgray;
+  border-radius: 5px;
+}
+
+.col-sm-9 div[class*="menu"] {
+  z-index: 10;
+}

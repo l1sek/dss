@@ -1,0 +1,338 @@
+[
+    {
+        "key": "AGILE_DEVELOPMENT_METHODOLOGY",
+        "name": "Agile methodology",
+        "sources": [
+            {
+                "key": "wd",
+                "id": "Q30232"
+            }
+        ],
+        "properties": {
+            "label": {}
+        }
+    },{
+        "key": "APPLICATION_SERVER",
+        "name": "Application server",
+        "sources": [
+            {
+                "key": "wd",
+                "id": "Q71550"
+            }
+        ],
+        "properties": {
+            "label":                {},
+            "programming_language": {
+                                        "influenced_by": {
+                                            "PROGRAMMING_LANGUAGE": [
+                                                "label"
+                                            ]
+                                        }
+                                    },
+            "operating_system":     {},
+            "platform":             {},
+            "license":              {},
+            "developer":            {},
+            "official_website":     {},
+            "stackexchange_tag":    {},
+            "inception":            {},
+            "popularity":           {}
+        }
+    },{
+        "key": "ARCHITECTURAL_PATTERN",
+        "name": "Architectural pattern",
+        "sources": [
+            {
+                "key": "wd",
+                "id": "Q635346"
+            }
+        ],
+        "properties": {
+            "label": {}
+        }
+    },{
+        "key": "CLOUD_COMPUTING",
+        "name": "Cloud computing",
+        "sources": [
+            {
+                "key": "wd",
+                "id": "Q483639"
+            }
+        ],
+        "properties": {
+            "label":            {},
+            "inception":        {},
+            "operating_system": {}
+        }
+    },{
+        "key": "COLUMN_ORIENTED_DBMS",
+        "name": "Column-oriented database",
+        "sources": [
+            {
+                "key": "wd",
+                "id": "Q425567"
+            }
+        ],
+        "properties": {
+            "label":            {},
+            "operating_system": {},
+            "developer":        {},
+            "license":          {},
+            "inception":        {}
+        }
+    },{
+        "key": "DATABASE_MANAGEMENT_SYSTEM",
+        "name": "Database management system",
+        "sources": [
+            {
+                "key": "wd",
+                "id": "Q176165",
+                "search_by": "subclass_of"
+            }
+        ],
+        "properties": {
+            "label":    {
+                            "triggers": {
+                                "_blocking": true,
+                                "Column-oriented DBMS": [
+                                    "COLUMN_ORIENTED_DBMS"
+                                ],
+                                "Distributed database management system": [
+                                    "DISTRIBUTED_DBMS"
+                                ],
+                                "document-oriented database": [
+                                    "DOCUMENT_ORIENTED_DBMS"
+                                ],
+                                "graph database": [
+                                    "GRAPH_DBMS"
+                                ],
+                                "NoSQL database management system": [
+                                    "NOSQL_DBMS"
+                                ],
+                                "relational database management system": [
+                                    "RDBMS"
+                                ],
+                                "time series database": [
+                                    "TIMESERIES_DATABSE"
+                                ]
+                            }
+                        }
+        }
+    },{
+        "key": "DEVELOPMENT_METHODOLOGY",
+        "name": "Developement methodology",
+        "sources": [
+            {
+                "key": "wd",
+                "id": "Q1378470"
+            }
+        ],
+        "properties": {
+            "label":    {
+                            "triggers": {
+                                "_blocking": false,
+                                "agile": [
+                                    "AGILE_DEVELOPMENT_METHODOLOGY"
+                                ]
+
+                            }
+                        }
+        }
+    },{
+        "key": "DISTRIBUTED_DBMS",
+        "name": "Distributed database management system",
+        "sources": [
+            {
+                "key": "wd",
+                "id": "Q4822779"
+            }
+        ],
+        "properties": {
+            "label":            {},
+            "operating_system": {},
+            "developer":        {},
+            "license":          {},
+            "inception":        {}
+        }
+    },{
+        "key": "DOCUMENT_ORIENTED_DBMS",
+        "name": "Document-oriented database",
+        "sources": [
+            {
+                "key": "wd",
+                "id": "Q1235236"
+            }
+        ],
+        "properties": {
+            "label":            {},
+            "operating_system": {},
+            "developer":        {},
+            "license":          {},
+            "inception":        {}
+        }
+    },{
+        "key": "GRAPH_DBMS",
+        "name": "Graph database",
+        "sources": [
+            {
+                "key": "wd",
+                "id": "Q595971"
+            }
+        ],
+        "properties": {
+            "label":            {},
+            "operating_system": {},
+            "developer":        {},
+            "license":          {},
+            "inception":        {}
+        }
+    },{
+        "key": "NETWORK_ARCHITECTURE",
+        "name": "Network architecture",
+        "sources": [
+            {
+                "key": "wd",
+                "id": "Q639681",
+                "search_by": "subclass_of"
+            }
+        ],
+        "properties": {
+            "label": {}
+        }
+    },{
+        "key": "NOSQL_DBMS",
+        "name": "NoSQL database management system",
+        "sources": [
+            {
+                "key": "wd",
+                "id": "Q82231"
+            }
+        ],
+        "properties": {
+            "label":            {},
+            "operating_system": {},
+            "developer":        {},
+            "license":          {},
+            "inception":        {}
+        }
+    },{
+        "key": "PERSISTANCE_FRAMEWORK",
+        "name": "Persistance framework",
+        "sources": [
+            {
+                "key": "wd",
+                "id": "Q7170392"
+            }
+        ],
+        "properties": {
+            "label":                {},
+            "programming_language": {},
+            "license":              {},
+            "platform":             {},
+            "developer":            {},
+            "official_website":     {},
+            "inception":            {}
+        }
+    },{
+        "key": "PROGRAMMING_LANGUAGE",
+        "name": "Programming language",
+        "sources": [
+            {
+                "key": "wd",
+                "id": "Q9143"
+            }
+        ],
+        "properties": {
+            "label":                {},
+            "inception":            {},
+            "stackexchange_tag":    {},
+            "programming_paradigm": {},
+            "popularity":           {}
+        }
+    },{
+        "key": "RDBMS",
+        "name": "Relational database management system",
+        "sources": [
+            {
+                "key": "wd",
+                "id": "Q3932296"
+            }
+        ],
+        "properties": {
+            "label":            {},
+            "operating_system": {},
+            "developer":        {},
+            "license":          {},
+            "inception":        {}
+        }
+    },{
+        "key": "SOFTWARE_ARCHITECTURE",
+        "name": "Software architecture",
+        "sources": [
+            {
+                "key": "wd",
+                "id": "Q846636",
+                "search_by": "subclass_of"
+            }
+        ],
+        "properties": {
+            "label": {}
+        }
+    },{
+        "key": "TIMESERIES_DATABSE",
+        "name": "Timeseries database",
+        "sources": [
+            {
+                "key": "wd",
+                "id": "Q7805429"
+            }
+        ],
+        "properties": {
+            "label": {},
+            "operating_system": {},
+            "developer": {},
+            "license": {},
+            "inception": {}
+        }
+    },{
+        "key": "WEB_FRAMEWORK",
+        "name": "Web framework",
+        "sources": [
+            {
+                "key": "wd",
+                "id": "Q1330336"
+            }
+        ],
+        "properties": {
+            "label":                {},
+            "inception":            {},
+            "developer":            {},
+            "official_website":     {},
+            "programming_language": {
+                                        "influenced_by": {
+                                            "PROGRAMMING_LANGUAGE": [
+                                                "label"
+                                            ]
+                                        }
+                                    },
+            "license":              {}
+        }
+    },{
+        "key": "WEB_SERWER",
+        "name": "Web server",
+        "sources": [
+            {
+                "key": "wd",
+                "id": "Q11288"
+            }
+        ],
+        "properties": {
+            "label":            {},
+            "operating_system": {},
+            "license":          {},
+            "developer":        {},
+            "official_website": {},
+            "inception":        {}
+        }
+    }
+]

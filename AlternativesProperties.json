@@ -1,0 +1,140 @@
+[
+    {
+        "key": "label",
+        "name": "Name",
+        "type": "string"
+    },{
+        "key": "developer",
+        "name": "Developer",
+        "type": "string",
+        "default_weight": 1,
+        "default_strategy": "custom",
+        "sources": {
+            "wd": {
+                "id": "P178"
+            }
+        }
+    },{
+        "key": "inception",
+        "name": "Inception",
+        "type": "date",
+        "default_weight": 1,
+        "default_strategy": "min_better",
+        "sources": {
+            "wd": {
+                "id": "P571"
+            }
+        }
+    },{
+        "key": "instance_of",
+        "name": "Instance of",
+        "type": "string",
+        "default_weight": 0,
+        "default_strategy": "custom",
+        "sources": {
+            "wd": {
+                "id": "P31"
+            }
+        }
+    },{
+        "key": "license",
+        "name": "License",
+        "type": "string",
+        "default_weight": 1,
+        "default_strategy": "custom",
+        "sources": { 
+            "wd": {
+                "id": "P275"
+            }
+        }
+    },{
+        "key": "official_website",
+        "name": "Website",
+        "type": "website",
+        "default_weight": 0,
+        "default_strategy": "custom",
+        "sources": { 
+            "wd": {
+                "id": "P856"
+            }
+        }
+    },{
+        "key": "operating_system",
+        "name": "OS",
+        "type": "string",
+        "default_weight": 1,
+        "default_strategy": "more_better",
+        "sources": {
+            "wd": {
+                "id": "P306"
+            }
+        }
+    },{
+        "key": "platform",
+        "name": "Platform",
+        "type": "string",
+        "default_weight": 1,
+        "default_strategy": "more_better",
+        "sources": {
+            "wd": {
+                "id": "P400"
+            }
+        }
+    },{
+        "key": "popularity",
+        "name": "Popularity",
+        "type": "timeline",
+        "default_weight": 3,
+        "default_strategy": "max_better",
+        "sources": {
+            "se": {
+                "by": "questions",
+                "site": "stackoverflow"
+            }
+        }
+    },{
+        "key": "programming_language",
+        "name": "Language",
+        "type": "string",
+        "default_weight": 1,
+        "default_strategy": "custom",
+        "sources": { 
+            "wd": {
+                "id": "P277"
+            }
+        }
+    },{
+        "key": "programming_paradigm",
+        "name": "Paradigm",
+        "type": "string",
+        "default_weight": 1,
+        "default_strategy": "custom",
+        "sources": { 
+            "wd": {
+                "id": "P3966"
+            }
+        }
+    },{
+        "key": "stackexchange_tag",
+        "name": "StackExchange",
+        "type": "tag",
+        "default_weight": 0,
+        "default_strategy": "custom",
+        "sources": { 
+            "wd": {
+                "id": "P1482"
+            }
+        }
+    },{
+        "key": "subclass_of",
+        "name": "Subclass of",
+        "type": "string",
+        "default_weight": 0,
+        "default_strategy": "custom",
+        "sources": {
+            "wd": {
+                "id": "P279"
+            }
+        }
+    }
+]
